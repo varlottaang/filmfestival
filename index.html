@@ -19,50 +19,54 @@
   
 </head>
   <body>
-<div>
+<div class="container-fluid my-3">
 <!-- Navbar -->
 
-          <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+          <nav class="navbar fixed-top navbar-toggleable bg-light navbar-light px-2">
   <a class="navbar-brand" href="index.html">Brooklyn Outdoor Film Festival</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar" data-target=".navbar-collapse" data-toggle="collapse">
+<!-- data-target=".navbar-collapse" data-toggle="collapse" makes the navbar disappear after -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#introduction">Home</a>
+        <a class="nav-link" href="#introduction" >Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="blog.html">News</a>
+        <a class="nav-link" href="news.html" >News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#program">Program</a>
+        <a class="nav-link" href="#program" >Program</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html#register">Register</a>
+        <a class="nav-link" href="index.html#register" >Register</a>
       </li>    
       <li class="nav-item">
-        <a class="nav-link" href="#social">Follow us</a>
+        <a class="nav-link"  href="#social" >Follow us</a>
       </li>  
     </ul>
+
   </div>  
 </nav>
-        
+<br>        
 
 <!-- Navbar End -->
 </div>
       <section id="introduction">
         <div class="container">
-        <div class="row fill-viewport align-items-center" >
+        <div class="row pt-5 align-items-center" >
         <div class="col-12 col-md-6" ></div>
         <h1 class="text-white">Brooklyn Outdoor Film Festival </h1>
-        <h2>5th-8th August 2017</h2>
-       
-        <p class="lead text-white font-italic">"Brooklyn Outdoor Film Festival" just got the approval to show movies at Brooklyn Bridge Park this year from August 5th through 8th, from 6pm to midnight. We can't wait to help the public discover awesome films!
-        Shows will be free and open to everyone, make sure to reserve your seat!</p>
-        
+        <h2 class="text-white-70">5th-8th August 2017</h2>
+      <div>
+        <p class="lead text-white">"Brooklyn Outdoor Film Festival" just got the approval to show movies at Brooklyn Bridge Park this year from August 5th through 8th, from 6pm to midnight. We can't wait to help the public discover awesome films! Shows will be free and open to everyone, make sure to reserve your seat! <h5 class="text-white">Everyone will receive free beer (or coke) and french fries (or pop corn) after 10 p.m.</h5></p>
+        <p class="lead text-white">Every night there will be speacial guests. Don't miss the show, our Special Guest List is insane! Just few names: 
+          <h4 class="text-white">Bradley Cooper, Emma Stone, Sylvester Stallone, Quentin Tarantino, U2 ...</h4></p>
+      </div>
           <div class="btn-group btn-group-justified">
-    <a href="blog.html" class="btn btn-primary">Latest News</a>
+    <a href="news.html" class="btn btn-primary">Latest News</a>
     <a href="#program" class="btn btn-primary">Program</a>
     <a href="#register" class="btn btn-primary">Register</a>
             </div>
@@ -73,16 +77,16 @@
       <section id="featured-1">
         <div class="container">
         <div class="row pt-5 align-items-center">
-        <div class="col d-none d-md-block align-self-end">
+        <div class="col-12 col-md-6 my-3 order-1 order-md-2 py-2 align-center">
          <img src="img/starwars.jpg" class="img-fluid"/>
         </div>  
-        <div class="col">
+        <div class="col-12 col-md-6 my-5 order-2 order-md-1">
         <h6 class="text-uppercase text-black-40">
           featured movie
         </h6>
         <h2>Star Wars: The Force Awakens</h2>
         <p>Thirty years after the destruction of the second Death Star and the Galactic Civil War, the First Order has risen from the fallen Galactic Empire and seeks to eliminate the New Republic. The Resistance, backed by the Republic and led by General Leia Organa, opposes them while searching for her twin brother, Luke Skywalker....</p>
-       <a class="btn btn-primary" href="blog.html#starwars" role="button">Read more...</a>
+       <a class="btn btn-primary" href="news.html#starwars" role="button">Read more...</a>
   
      </div>
     </div>
@@ -93,16 +97,16 @@
          <div class="container">
         <div class="row pt-5 align-items-center">
          
-        <div class="col">
+        <div class="col-12 col-md-6 my-5 order-2 order-md-1">
         <h6 class="text-uppercase text-black-40">
           featured movie
         </h6>
         <h2>Batman Begins</h2>
         <p>Batman Begins is a 2005 superhero film based on the DC Comics character Batman, directed by Christopher Nolan and written by Nolan and David S. Goyer. It stars Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson, Rutger Hauer, Ken Watanabe and Morgan Freeman. The film reboots the Batman film series, telling the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul and the Scarecrow from plunging Gotham City into chaos.</p>
-       <a class="btn btn-primary" href="blog.html#batman" role="button">Read more...</a>
+       <a class="btn btn-primary" href="news.html#batman" role="button">Read more...</a>
       </div>
 
-        <div class="col d-none d-md-block align-self-end">
+        <div class="col-12 col-md-6 my-3 order-1 order-md-2 py-2 align-center">
          <img src="img/batman.jpg" class="img-fluid"/>
         </div> 
     </div>
@@ -120,7 +124,7 @@
        <p class="lead text-white">We can't wait to help the public discover awesome films!
         Shows will be free and open to everyone, make sure to reserve your seat! </p>
         <p class="lead text-white">Pre register using the link below</p>
-       <a class="btn btn-light d-block d-md-inline-block py-3" href="#register" role="button">Pre register</a>
+       <a class="btn btn-light d-block d-md-inline-block py-3" href="#register" role="button">Register</a>
      </div>
      <div class="col-12 col-md-6 my-5 order-1 order-md-2 py-4">
       <div>
@@ -158,6 +162,7 @@
           <li class="py-2"><strong>8am-10pm</strong> The Pink Panther</li>
           <li class="py-2"><strong>10pm-12pm</strong> Rocky</li>
         </ul>
+        <img src="img/rocky.jpg" alt="Rocky" class="img-thumbnail">
         </div>
         
         <div class="col-12 col-md-3 px-2 my-4 text-center">
@@ -171,6 +176,7 @@
           <li class="py-2"><strong>8am-10pm</strong> Fantozzi</li>
           <li class="py-2"><strong>10pm-12pm</strong> Rocky IV</li>
         </ul>
+        <img src="img/rocky4.jpg" alt="Rocky4" class="img-thumbnail">
          </div> 
         
         <div class="col-12 col-md-3 px-2 my-4 text-center">
@@ -184,6 +190,7 @@
           <li class="py-2"><strong>8am-10pm</strong> Roma città aperta</li>
           <li class="py-2"><strong>10pm-12pm</strong> Ladri di biciclette</li>
         </ul>
+        <img src="img/ladriDiBiciclette.jpg" alt="De Sica" class="img-thumbnail">
           </div>
         
         <div class="col-12 col-md-3 px-2 my-4 text-center">
@@ -197,10 +204,9 @@
           <li class="py-2"><strong>8am-10pm</strong> La vita è bella</li>
           <li class="py-2"><strong>10pm-12pm</strong> Family Guy</li>
         </ul>
-        
+        <img src="img/familyGuy.jpg" alt="Family Guy" class="img-thumbnail">
         </div>
       </div>
-      </div>  
 </section>
 
 <br>
@@ -213,7 +219,7 @@
               <h6 class="text-black-40 text-uppercase">
                 Reserve your seat
               </h6>
-              <h3 class="text-black-70">Pre register</h3>
+              <h3 class="text-black-70">Register</h3>
             </div>
         </div> 
 <!-- form text -->
@@ -257,14 +263,9 @@
     </label>
   </div>
 
-<div class="form-check form-check-inline">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      All
-    </label>
+  <div><button type="submit" class="btn btn-primary my-3">Submit</button>
   </div>
-  <div><button type="submit" class="btn btn-primary">Submit</button>
-  </div>
+
 </form>
 <!-- Registration Form End -->
 
@@ -296,7 +297,7 @@
 </section>
 
 <!-- End Social -->
-<footer class="footer text-center">
+<footer class="footer text-center pt-5">
       <p>ACME Corporation &copy; All rights reserved </p>
       <p>
         <a href="#introduction">Back to top</a>
